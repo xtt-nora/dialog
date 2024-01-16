@@ -1,0 +1,57 @@
+// 主题设置
+$gray-bg: #FFFFFF;
+$gray-line: #EBECF0;
+$gray-hover:#dfe1e5;
+$gray-secondary-text:#818594;
+$gray-priamry-text:#000000;
+$primary-color: #3574F0;
+$secondary-color: #CFDEF3;
+
+
+// 全局滚动条
+::-webkit-scrollbar {
+  width: 5px; /* 设置滚动条宽度 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #CFDEF3;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f2f2f2; 
+}
+
+/* Firefox滚动条样式 */
+html {
+  scrollbar-color: #CFDEF3 #f2f2f2;
+  scrollbar-width: thin;
+}
+
+// light
+$light1: #FFFFFF;
+$light2: #F7F8FA;
+$light3:  #EBECF1;
+$light4:  #DFE1E5;
+$light5:  #DFE1E5;
+$light6:   #000000;
+$light7:  #818594;
+
+//dark
+$dark1: #1E1F22;
+$dark2: #6F737A;
+$dark3:   #393B40;
+$dark4:  #43454A;
+$dark5:  #CED0D6;
+$dark6:   #DFE1E5;
+$dark7:  #6F737A;
+
+// :export {
+// $light1: $light1;
+// $light2: $light2;
+// $light3: $light3;
+// $light4: $light4;
+// $light5: $light5;
+// $light6: $light6;
+// $light7: $light7;
+// }

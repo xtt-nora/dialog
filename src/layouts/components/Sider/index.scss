@@ -1,0 +1,42 @@
+#containerLeft {
+  width: inherit !important;
+  height: 100%;
+  max-width: inherit !important;
+}
+
+.siderContainer {
+  height: 100%;
+  display: flex;
+
+  .tabs {
+    height: 100%;
+    width: 30px;
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 0;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $gray-hover;
+      }
+    }
+  }
+
+  .content {
+    height: 100%;
+    width: auto;
+    flex: 1;
+  }
+}
+#containerResize {
+  cursor: col-resize;
+  float: left;
+  position: relative;
+}
+
+:deep(.n-scrollbar) {
+  min-width: auto !important;
+}

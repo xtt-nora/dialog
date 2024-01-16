@@ -1,0 +1,6 @@
+ .n-layout {
+  :deep(.n-main :first-child) {
+    // height: inherit;
+    box-sizing: border-box;
+  }
+ }

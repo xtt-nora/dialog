@@ -1,0 +1,44 @@
+.n-layout {
+  height: 100%;
+  width: 100%;
+  .n-layout-header {
+    height: 130px;
+    width: 100%;
+    flex: 0 0 130px;
+    .tabs {
+      height: 28px;
+      width: 100vw;
+      line-height: 28px;
+      // background-color: #f7f8fa;
+      display: flex;
+      flex-direction: row;
+      font-size: 12px;
+      // color: #000000;
+    }
+    .themelight{
+      position: absolute;
+      right: 20px;
+      top: 3px;
+    }
+    .n-divider:not(.n-divider--vertical) {
+      margin: 0;
+  }
+    .menuGroups {
+      display: flex;
+    }
+
+    .tab-groups {
+      display: flex;
+    }
+  }
+  &-container {
+    max-height: calc(100% - 160px);
+  }
+  &-footer {
+    height: fit-content;
+  }
+  :deep(.n-layout-scroll-container) {
+    display: flex;
+    flex-direction: column;
+  }
+}

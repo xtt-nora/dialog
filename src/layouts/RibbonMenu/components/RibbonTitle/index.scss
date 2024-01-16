@@ -1,0 +1,16 @@
+.container{
+  height: 24px;
+  line-height: 24px;
+  margin-top: 4px;
+  padding: 0 10px;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  &:hover{
+      background-color: $gray-hover;
+  }
+}
+
+.active{
+  background-color: $gray-bg;
+  text-shadow: 0 0 1px black; 
+}

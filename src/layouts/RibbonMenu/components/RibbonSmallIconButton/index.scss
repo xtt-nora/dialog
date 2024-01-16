@@ -1,0 +1,22 @@
+.container{
+  height: 20px;
+  padding: 2px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  .icon{
+      width: 16px;
+      height: 16px;
+      margin-left: 4px;
+      background-size: cover;
+  }
+  .title{
+      margin-left: 4px;
+      line-height: 16px;
+  }
+
+  &:hover{
+      background-color: $gray-hover;
+      border-radius: 4px;
+  }
+}

@@ -1,0 +1,13 @@
+.ribbonSelect{
+  width: 200px;
+  justify-content: center !important;
+  .group{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    .select{
+      margin-left:2px
+    }
+  }
+}

@@ -1,5 +1,4 @@
 <template>
-  <!-- <div id="dialog" style="width:100%;height: 100%;"> -->
   <teleport to="body">
   <vue-drag-resize 
   :parentLimitation="false"
@@ -26,7 +25,6 @@
     </div>
   </vue-drag-resize>
     </teleport>
-  <!-- </div> -->
 </template>
 
 <script setup lang="ts">

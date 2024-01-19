@@ -1,5 +1,6 @@
 <template>
   <!-- <div id="dialog" style="width:100%;height: 100%;"> -->
+  <teleport to="body">
   <vue-drag-resize 
   :parentLimitation="false"
   :isActive="true" 
@@ -24,6 +25,7 @@
       <n-button size="tiny" @click="closeDialog">关闭</n-button>   
     </div>
   </vue-drag-resize>
+    </teleport>
   <!-- </div> -->
 </template>
 

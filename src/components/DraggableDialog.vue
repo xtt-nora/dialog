@@ -15,7 +15,7 @@
     <div class="dialog-header">
       <slot name="header">新建弹窗</slot>
       <n-button size="tiny" @click="closeDialog">Close</n-button>
-    </div>
+    </div> 
     <div class="dialog-content">
       <slot></slot>
     </div>

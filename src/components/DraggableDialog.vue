@@ -3,7 +3,7 @@
   <vue-drag-resize 
   :parentLimitation="false"
   :isActive="true" 
-  :isResizable="false" 
+  :isResizable="true" 
   :w="500" 
   :h="400" 
   :z="zIndex1"

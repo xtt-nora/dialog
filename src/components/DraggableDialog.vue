@@ -106,6 +106,14 @@ const onActivated =() =>{
   border: 1px solid;
   position: fixed;
 }
+::v-deep .vdr-stick {
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 1px;
+    background: transparent;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0.10417vw transparent;
+}
 .carousel-img {
   width: 100%;
   height: 240px;
